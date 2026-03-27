@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "name": "Manchu Dictionary MVP Rules",
+    "version": "0.1.0"
+  },
+  "noun_suffixes": [
+    { "suffix": "i", "type": "属格", "explanation": "名词属格，通常可理解为“……的”。" },
+    { "suffix": "be", "type": "宾格", "explanation": "名词作宾语时常见。" },
+    { "suffix": "de", "type": "与格 / 处所", "explanation": "表示向、到、在。" },
+    { "suffix": "ci", "type": "离格", "explanation": "表示从、自。" }
+  ],
+  "verb_suffixes": [
+    { "suffix": "mbi", "type": "一般形 / 叙述形", "explanation": "最常见的叙述形。" },
+    { "suffix": "ha", "type": "完成式", "explanation": "多用于“已做”“做过”“做成的”。" },
+    { "suffix": "he", "type": "完成式", "explanation": "多用于“已做”“做过”“做成的”。" },
+    { "suffix": "ho", "type": "完成式", "explanation": "多用于“已做”“做过”“做成的”。" },
+    { "suffix": "me", "type": "连动式", "explanation": "常用于“做着”“一边……一边……”。" },
+    { "suffix": "fi", "type": "副动词", "explanation": "常用于“……之后”“做了以后”。" },
+    { "suffix": "ku", "type": "否定式", "explanation": "表示否定。本站 MVP 使用简化写法 ku。" },
+    { "suffix": "ngge", "type": "分词 / 名物化", "explanation": "可理解为“要……的”“所……之物”。" }
+  ],
+  "irregular_forms": [
+    {
+      "surface": "oho",
+      "lemma": "ombi",
+      "type": "过去式 / 完成式",
+      "explanation": "不规则高频形式，表示“成了、变得”。"
+    },
+    {
+      "surface": "oku",
+      "lemma": "ombi",
+      "type": "否定式",
+      "explanation": "不规则高频形式，表示“不是、不成为”。"
+    },
+    {
+      "surface": "ome",
+      "lemma": "ombi",
+      "type": "连动式",
+      "explanation": "不规则高频形式。"
+    },
+    {
+      "surface": "ofi",
+      "lemma": "ombi",
+      "type": "副动词",
+      "explanation": "不规则高频形式。"
+    },
+    {
+      "surface": "ongge",
+      "lemma": "ombi",
+      "type": "分词 / 名物化",
+      "explanation": "不规则高频形式。"
+    }
+  ],
+  "sentence_patterns": [
+    {
+      "id": "P001",
+      "name": "名词 + 状态词 + oho",
+      "description": "常用于“某物变成某种状态”。"
+    },
+    {
+      "id": "P002",
+      "name": "处所短语 + 完成式动词 + 名词 + bi",
+      "description": "教学句中可用于“在某处做某动作的是某物”。"
+    },
+    {
+      "id": "P003",
+      "name": "名词 + 形容词",
+      "description": "最简单的判断或修饰结构。"
+    }
+  ]
+}
