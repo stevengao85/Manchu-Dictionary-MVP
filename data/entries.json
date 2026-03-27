@@ -1,0 +1,649 @@
+[
+  {
+    "id": "E0001",
+    "headword": "abka",
+    "headword_script": "ᠠᠪᡴᠠ",
+    "stem": "abka",
+    "pos": "名词",
+    "core_meaning": "天；天空；上天",
+    "senses": [
+      "本义为天、天空、上天。",
+      "在部分语境中可引申到天象、天气。"
+    ],
+    "forms": [
+      { "surface": "abkai", "type": "属格", "explanation": "天的；上天的" },
+      { "surface": "abkabe", "type": "宾格", "explanation": "天（作宾语时）" },
+      { "surface": "abkade", "type": "与格 / 处所", "explanation": "向天；在天上" },
+      { "surface": "abkaci", "type": "离格", "explanation": "从天上" }
+    ],
+    "derivations": [
+      { "term": "abkai fejergi", "relation": "复合", "meaning": "天下；全世界" },
+      { "term": "abkai jui", "relation": "复合", "meaning": "天子；皇帝" },
+      { "term": "abkai ejen", "relation": "复合", "meaning": "上帝；神" },
+      { "term": "abkai yang", "relation": "复合", "meaning": "太阳" },
+      { "term": "abkai sukdun", "relation": "复合", "meaning": "天气；空气" }
+    ],
+    "examples": [
+      {
+        "latin": "abka tusihiyen oho",
+        "translation": "天阴了。",
+        "notes": "可用于演示句子分析。"
+      },
+      {
+        "latin": "abka de deyehe gasha bi",
+        "translation": "在天上飞的是鸟。",
+        "notes": "演示 abka 的处所关系。"
+      }
+    ],
+    "related": ["abkai", "na", "yang", "sukdun"],
+    "tags": ["自然", "高频"]
+  },
+  {
+    "id": "E0002",
+    "headword": "abkai",
+    "headword_script": "",
+    "stem": "abkai",
+    "pos": "形容词 / 副词",
+    "core_meaning": "自然的；天然地",
+    "senses": [
+      "可作为 abka 的属格形式。",
+      "也可词汇化为独立词，表示天然地、自然地。"
+    ],
+    "forms": [],
+    "derivations": [
+      { "term": "abka", "relation": "相关词", "meaning": "天；天空；上天" }
+    ],
+    "examples": [
+      {
+        "latin": "abkai beye",
+        "translation": "天然之体；自然之身。",
+        "notes": "用于演示词汇化形式。"
+      }
+    ],
+    "related": ["abka"],
+    "tags": ["词汇化"]
+  },
+  {
+    "id": "E0003",
+    "headword": "boo",
+    "headword_script": "",
+    "stem": "boo",
+    "pos": "名词",
+    "core_meaning": "房屋；家",
+    "senses": [
+      "房子、住所。",
+      "可引申为家庭、家中。"
+    ],
+    "forms": [
+      { "surface": "booi", "type": "属格", "explanation": "家的；家中的" },
+      { "surface": "boobe", "type": "宾格", "explanation": "家（作宾语时）" },
+      { "surface": "boode", "type": "与格 / 处所", "explanation": "在家里；到家里" },
+      { "surface": "booci", "type": "离格", "explanation": "从家里" }
+    ],
+    "derivations": [
+      { "term": "booi niyalma", "relation": "复合", "meaning": "家里人；家仆" },
+      { "term": "booi baita", "relation": "复合", "meaning": "家务" }
+    ],
+    "examples": [
+      {
+        "latin": "bi boode tehe",
+        "translation": "我在家里。",
+        "notes": "演示 boode。"
+      },
+      {
+        "latin": "booci genehe",
+        "translation": "从家里走了。",
+        "notes": "演示 booci。"
+      }
+    ],
+    "related": ["booi", "niyalma", "baita"],
+    "tags": ["日常", "高频"]
+  },
+  {
+    "id": "E0004",
+    "headword": "booi",
+    "headword_script": "",
+    "stem": "booi",
+    "pos": "形容词 / 定语词",
+    "core_meaning": "家的；家中的",
+    "senses": [
+      "通常作 boo 的属格或定语形式。"
+    ],
+    "forms": [],
+    "derivations": [
+      { "term": "boo", "relation": "原词", "meaning": "房屋；家" }
+    ],
+    "examples": [
+      {
+        "latin": "booi baita",
+        "translation": "家务。",
+        "notes": "常见定语结构。"
+      }
+    ],
+    "related": ["boo", "baita", "niyalma"],
+    "tags": ["定语"]
+  },
+  {
+    "id": "E0005",
+    "headword": "na",
+    "headword_script": "",
+    "stem": "na",
+    "pos": "名词",
+    "core_meaning": "地；地上；大地",
+    "senses": [
+      "土地、地面。",
+      "与 abka 对举时可表天地。"
+    ],
+    "forms": [
+      { "surface": "nai", "type": "属格", "explanation": "地的" },
+      { "surface": "nade", "type": "与格 / 处所", "explanation": "在地上；到地上" },
+      { "surface": "naci", "type": "离格", "explanation": "从地上" }
+    ],
+    "derivations": [
+      { "term": "abka na", "relation": "并列复合", "meaning": "天地；宇宙" }
+    ],
+    "examples": [
+      {
+        "latin": "na de feksihe gurgu bi",
+        "translation": "在地上跑的是兽。",
+        "notes": "与 abka 对举。"
+      }
+    ],
+    "related": ["abka", "gurgu"],
+    "tags": ["自然"]
+  },
+  {
+    "id": "E0006",
+    "headword": "niyalma",
+    "headword_script": "",
+    "stem": "niyalma",
+    "pos": "名词",
+    "core_meaning": "人",
+    "senses": ["人；人类。"],
+    "forms": [
+      { "surface": "niyalmai", "type": "属格", "explanation": "人的" },
+      { "surface": "niyalmade", "type": "与格 / 处所", "explanation": "到人那里；在人那里" }
+    ],
+    "derivations": [
+      { "term": "booi niyalma", "relation": "复合", "meaning": "家里人；家仆" }
+    ],
+    "examples": [
+      { "latin": "niyalma bi", "translation": "是人。", "notes": "简单判断句。" }
+    ],
+    "related": ["boo", "mini"],
+    "tags": ["高频"]
+  },
+  {
+    "id": "E0007",
+    "headword": "baita",
+    "headword_script": "",
+    "stem": "baita",
+    "pos": "名词",
+    "core_meaning": "事；事情；事务",
+    "senses": ["事情、事务、事件。"],
+    "forms": [
+      { "surface": "baitai", "type": "属格", "explanation": "事情的" },
+      { "surface": "baitade", "type": "与格 / 处所", "explanation": "在事情上；向事务处" }
+    ],
+    "derivations": [
+      { "term": "booi baita", "relation": "复合", "meaning": "家务" },
+      { "term": "arambi baita", "relation": "复合", "meaning": "所做之事" }
+    ],
+    "examples": [
+      { "latin": "tere baita sain", "translation": "那件事好。", "notes": "基本名词用法。" }
+    ],
+    "related": ["boo", "ara"],
+    "tags": ["高频"]
+  },
+  {
+    "id": "E0008",
+    "headword": "bithe",
+    "headword_script": "",
+    "stem": "bithe",
+    "pos": "名词",
+    "core_meaning": "书；文书；文字材料",
+    "senses": [
+      "书籍、文件、文书。"
+    ],
+    "forms": [
+      { "surface": "bithei", "type": "属格", "explanation": "书的；文书的" },
+      { "surface": "bithede", "type": "与格 / 处所", "explanation": "在书中；向文书处" }
+    ],
+    "derivations": [
+      { "term": "araha bithe", "relation": "复合", "meaning": "写成的文书" }
+    ],
+    "examples": [
+      { "latin": "tere bithe araha", "translation": "那份文书已经写好了。", "notes": "常见教学示例。" }
+    ],
+    "related": ["ara"],
+    "tags": ["文书"]
+  },
+  {
+    "id": "E0009",
+    "headword": "ara",
+    "headword_script": "",
+    "stem": "ara",
+    "citation_form": "arambi",
+    "pos": "动词",
+    "core_meaning": "做；制作；办理；写",
+    "senses": [
+      "做、制作。",
+      "办理、进行。",
+      "在文书语境下可表写、撰写。"
+    ],
+    "forms": [
+      { "surface": "arambi", "type": "一般形 / 叙述形", "explanation": "做；正在做；会做" },
+      { "surface": "araha", "type": "完成式", "explanation": "做过；已做；做成的" },
+      { "surface": "araku", "type": "否定式", "explanation": "不做" },
+      { "surface": "arame", "type": "连动式", "explanation": "做着；并且做" },
+      { "surface": "arafi", "type": "副动词", "explanation": "做完后；做了以后" },
+      { "surface": "arangge", "type": "分词 / 名物化", "explanation": "要做的；所做之物" }
+    ],
+    "derivations": [
+      { "term": "arambi baita", "relation": "复合", "meaning": "所做之事" },
+      { "term": "araha bithe", "relation": "复合", "meaning": "写成的文书" }
+    ],
+    "examples": [
+      { "latin": "mini boo be arambi", "translation": "我造房子。", "notes": "基本动词示例。" },
+      { "latin": "tere bithe araha", "translation": "那份文书已经写好了。", "notes": "完成式示例。" }
+    ],
+    "related": ["boo", "bithe", "baita"],
+    "tags": ["动词", "高频"]
+  },
+  {
+    "id": "E0010",
+    "headword": "ombi",
+    "headword_script": "",
+    "stem": "o",
+    "citation_form": "ombi",
+    "pos": "动词",
+    "core_meaning": "是；成为；变成",
+    "senses": [
+      "判断、存在或变化时常见。",
+      "句末谓语里很高频。"
+    ],
+    "forms": [
+      { "surface": "ombi", "type": "一般形 / 叙述形", "explanation": "是；成为；变成" },
+      { "surface": "oho", "type": "过去式 / 完成式", "explanation": "成了；变得；已经是" },
+      { "surface": "oku", "type": "否定式", "explanation": "不是；不成为" },
+      { "surface": "ome", "type": "连动式", "explanation": "成为着；作为连动成分" },
+      { "surface": "ofi", "type": "副动词", "explanation": "成为之后" },
+      { "surface": "ongge", "type": "分词 / 名物化", "explanation": "要成为的；所成之物" }
+    ],
+    "derivations": [],
+    "examples": [
+      { "latin": "abka tusihiyen oho", "translation": "天阴了。", "notes": "句末过去式。" },
+      { "latin": "niyalma bi ombi", "translation": "是人。", "notes": "判断句。" }
+    ],
+    "related": ["oho"],
+    "tags": ["动词", "高频"]
+  },
+  {
+    "id": "E0011",
+    "headword": "tusihiyen",
+    "headword_script": "",
+    "stem": "tusihiyen",
+    "pos": "状态词",
+    "core_meaning": "阴沉的；被云雾遮住的",
+    "senses": [
+      "用于描述天空阴沉、云雾遮蔽的状态。"
+    ],
+    "forms": [],
+    "derivations": [],
+    "examples": [
+      { "latin": "abka tusihiyen oho", "translation": "天阴了。", "notes": "教学示例。" }
+    ],
+    "related": ["abka", "ombi", "sukdun"],
+    "tags": ["天气"]
+  },
+  {
+    "id": "E0012",
+    "headword": "gene",
+    "headword_script": "",
+    "stem": "gene",
+    "citation_form": "genembi",
+    "pos": "动词",
+    "core_meaning": "去；前往",
+    "senses": ["去、前往。"],
+    "forms": [
+      { "surface": "genembi", "type": "一般形 / 叙述形", "explanation": "去；前往" },
+      { "surface": "genehe", "type": "完成式", "explanation": "去了；已去" },
+      { "surface": "geneku", "type": "否定式", "explanation": "不去" },
+      { "surface": "genefi", "type": "副动词", "explanation": "去了以后" },
+      { "surface": "geneme", "type": "连动式", "explanation": "去着；去并且" }
+    ],
+    "derivations": [],
+    "examples": [
+      { "latin": "booci genehe", "translation": "从家里走了。", "notes": "完成式示例。" }
+    ],
+    "related": ["boo"],
+    "tags": ["动词", "高频"]
+  },
+  {
+    "id": "E0013",
+    "headword": "gasha",
+    "headword_script": "",
+    "stem": "gasha",
+    "pos": "名词",
+    "core_meaning": "鸟",
+    "senses": ["鸟。"],
+    "forms": [
+      { "surface": "gashai", "type": "属格", "explanation": "鸟的" },
+      { "surface": "gashade", "type": "与格 / 处所", "explanation": "向鸟；在鸟那里" }
+    ],
+    "derivations": [],
+    "examples": [
+      { "latin": "abka de deyehe gasha bi", "translation": "在天上飞的是鸟。", "notes": "与 deye- 连用。" }
+    ],
+    "related": ["deye", "abka"],
+    "tags": ["动物"]
+  },
+  {
+    "id": "E0014",
+    "headword": "gurgu",
+    "headword_script": "",
+    "stem": "gurgu",
+    "pos": "名词",
+    "core_meaning": "兽；野兽",
+    "senses": ["兽；走兽。"],
+    "forms": [
+      { "surface": "gurgui", "type": "属格", "explanation": "兽的" },
+      { "surface": "gurgude", "type": "与格 / 处所", "explanation": "向兽；在兽那里" }
+    ],
+    "derivations": [],
+    "examples": [
+      { "latin": "na de feksihe gurgu bi", "translation": "在地上跑的是兽。", "notes": "与 feksi- 连用。" }
+    ],
+    "related": ["feksi", "na"],
+    "tags": ["动物"]
+  },
+  {
+    "id": "E0015",
+    "headword": "deye",
+    "headword_script": "",
+    "stem": "deye",
+    "citation_form": "deyembi",
+    "pos": "动词",
+    "core_meaning": "飞",
+    "senses": ["飞。"],
+    "forms": [
+      { "surface": "deyembi", "type": "一般形 / 叙述形", "explanation": "飞" },
+      { "surface": "deyehe", "type": "完成式", "explanation": "飞了；飞起的" },
+      { "surface": "deyefi", "type": "副动词", "explanation": "飞了以后" }
+    ],
+    "derivations": [],
+    "examples": [
+      { "latin": "abka de deyehe gasha bi", "translation": "在天上飞的是鸟。", "notes": "教学示例。" }
+    ],
+    "related": ["gasha", "abka"],
+    "tags": ["动词"]
+  },
+  {
+    "id": "E0016",
+    "headword": "feksi",
+    "headword_script": "",
+    "stem": "feksi",
+    "citation_form": "feksimbi",
+    "pos": "动词",
+    "core_meaning": "跑",
+    "senses": ["跑；奔。"],
+    "forms": [
+      { "surface": "feksimbi", "type": "一般形 / 叙述形", "explanation": "跑" },
+      { "surface": "feksihe", "type": "完成式", "explanation": "跑了；跑起的" },
+      { "surface": "feksifi", "type": "副动词", "explanation": "跑了以后" }
+    ],
+    "derivations": [],
+    "examples": [
+      { "latin": "na de feksihe gurgu bi", "translation": "在地上跑的是兽。", "notes": "教学示例。" }
+    ],
+    "related": ["gurgu", "na"],
+    "tags": ["动词"]
+  },
+  {
+    "id": "E0017",
+    "headword": "hengkile",
+    "headword_script": "",
+    "stem": "hengkile",
+    "citation_form": "hengkilembi",
+    "pos": "动词",
+    "core_meaning": "叩头；叩拜",
+    "senses": ["叩头、叩拜。"],
+    "forms": [
+      { "surface": "hengkilembi", "type": "一般形 / 叙述形", "explanation": "叩头；叩拜" },
+      { "surface": "hengkilehe", "type": "完成式", "explanation": "叩过头；已叩拜" }
+    ],
+    "derivations": [],
+    "examples": [
+      { "latin": "abka de hengkilembi", "translation": "向天叩头。", "notes": "与 abka de 连用。" }
+    ],
+    "related": ["abka"],
+    "tags": ["动词", "礼仪"]
+  },
+  {
+    "id": "E0018",
+    "headword": "fejergi",
+    "headword_script": "",
+    "stem": "fejergi",
+    "pos": "名词",
+    "core_meaning": "下面；下界；天下（在复合词中）",
+    "senses": ["多见于复合结构，如 abkai fejergi。"],
+    "forms": [],
+    "derivations": [
+      { "term": "abkai fejergi", "relation": "复合", "meaning": "天下；全世界" }
+    ],
+    "examples": [
+      { "latin": "abkai fejergi", "translation": "天下；全世界。", "notes": "复合名词。" }
+    ],
+    "related": ["abka"],
+    "tags": ["复合"]
+  },
+  {
+    "id": "E0019",
+    "headword": "jui",
+    "headword_script": "",
+    "stem": "jui",
+    "pos": "名词",
+    "core_meaning": "儿子；子女",
+    "senses": ["儿子；孩子。"],
+    "forms": [],
+    "derivations": [
+      { "term": "abkai jui", "relation": "复合", "meaning": "天子；皇帝" }
+    ],
+    "examples": [
+      { "latin": "abkai jui", "translation": "天子；皇帝。", "notes": "固定复合词。" }
+    ],
+    "related": ["abka"],
+    "tags": ["亲属"]
+  },
+  {
+    "id": "E0020",
+    "headword": "ejen",
+    "headword_script": "",
+    "stem": "ejen",
+    "pos": "名词",
+    "core_meaning": "主人；主；君",
+    "senses": ["主人、主宰。"],
+    "forms": [],
+    "derivations": [
+      { "term": "abkai ejen", "relation": "复合", "meaning": "上帝；神" }
+    ],
+    "examples": [
+      { "latin": "abkai ejen", "translation": "上帝；神。", "notes": "固定复合词。" }
+    ],
+    "related": ["abka"],
+    "tags": ["称谓"]
+  },
+  {
+    "id": "E0021",
+    "headword": "yang",
+    "headword_script": "",
+    "stem": "yang",
+    "pos": "名词",
+    "core_meaning": "太阳",
+    "senses": ["太阳。"],
+    "forms": [],
+    "derivations": [
+      { "term": "abkai yang", "relation": "复合", "meaning": "太阳" }
+    ],
+    "examples": [
+      { "latin": "abkai yang", "translation": "太阳。", "notes": "固定复合词。" }
+    ],
+    "related": ["abka"],
+    "tags": ["自然"]
+  },
+  {
+    "id": "E0022",
+    "headword": "sukdun",
+    "headword_script": "",
+    "stem": "sukdun",
+    "pos": "名词",
+    "core_meaning": "天气；空气；气息",
+    "senses": ["空气、天气、气息。"],
+    "forms": [],
+    "derivations": [
+      { "term": "abkai sukdun", "relation": "复合", "meaning": "天气；空气" }
+    ],
+    "examples": [
+      { "latin": "abkai sukdun",
+        "translation": "天气；空气。",
+        "notes": "固定复合词。" }
+    ],
+    "related": ["abka", "tusihiyen"],
+    "tags": ["天气"]
+  },
+  {
+    "id": "E0023",
+    "headword": "genggiyen",
+    "headword_script": "",
+    "stem": "genggiyen",
+    "pos": "形容词",
+    "core_meaning": "明亮的；晴朗的",
+    "senses": ["明亮、晴朗。"],
+    "forms": [],
+    "derivations": [
+      { "term": "genggiyen abka", "relation": "固定搭配", "meaning": "晴空；明净的天空" }
+    ],
+    "examples": [
+      { "latin": "genggiyen abka", "translation": "晴空。", "notes": "固定搭配。" }
+    ],
+    "related": ["abka"],
+    "tags": ["天气"]
+  },
+  {
+    "id": "E0024",
+    "headword": "gereke",
+    "headword_script": "",
+    "stem": "gereke",
+    "pos": "状态词",
+    "core_meaning": "破晓；发亮",
+    "senses": ["破晓、天亮。"],
+    "forms": [],
+    "derivations": [
+      { "term": "abka gereke", "relation": "固定搭配", "meaning": "天亮了" }
+    ],
+    "examples": [
+      { "latin": "abka gereke", "translation": "天亮了。", "notes": "固定搭配。" }
+    ],
+    "related": ["abka"],
+    "tags": ["天气"]
+  },
+  {
+    "id": "E0025",
+    "headword": "sain",
+    "headword_script": "",
+    "stem": "sain",
+    "pos": "形容词",
+    "core_meaning": "好；良好",
+    "senses": ["好、良好。"],
+    "forms": [],
+    "derivations": [],
+    "examples": [
+      { "latin": "tere baita sain", "translation": "那件事好。", "notes": "高频形容词。" }
+    ],
+    "related": ["baita"],
+    "tags": ["高频"]
+  },
+  {
+    "id": "E0026",
+    "headword": "tere",
+    "headword_script": "",
+    "stem": "tere",
+    "pos": "指示词",
+    "core_meaning": "那；那个",
+    "senses": ["那；那个。"],
+    "forms": [],
+    "derivations": [],
+    "examples": [
+      { "latin": "tere baita", "translation": "那件事。", "notes": "高频指示词。" }
+    ],
+    "related": ["baita", "bithe"],
+    "tags": ["高频"]
+  },
+  {
+    "id": "E0027",
+    "headword": "bi",
+    "headword_script": "",
+    "stem": "bi",
+    "pos": "代词 / 系词性成分",
+    "core_meaning": "我；是（在部分教学表达中）",
+    "senses": [
+      "最常见义为第一人称“我”。",
+      "在教学示例中常见与 ombi 组合。"
+    ],
+    "forms": [],
+    "derivations": [],
+    "examples": [
+      { "latin": "bi boode tehe", "translation": "我在家里。", "notes": "第一人称。" }
+    ],
+    "related": ["mini", "boo"],
+    "tags": ["高频"]
+  },
+  {
+    "id": "E0028",
+    "headword": "mini",
+    "headword_script": "",
+    "stem": "mini",
+    "pos": "代词",
+    "core_meaning": "我的；我之",
+    "senses": ["第一人称属格形式，可理解为“我的”。"],
+    "forms": [],
+    "derivations": [],
+    "examples": [
+      { "latin": "mini boo be arambi", "translation": "我造房子。", "notes": "教学示例中常见。" }
+    ],
+    "related": ["bi", "boo", "ara"],
+    "tags": ["高频"]
+  },
+  {
+    "id": "E0029",
+    "headword": "tehe",
+    "headword_script": "",
+    "stem": "tehe",
+    "pos": "状态词 / 动词形式",
+    "core_meaning": "在；停留；坐着（示例用）",
+    "senses": ["在某处、停留于某处。首版仅作示例词处理。"],
+    "forms": [],
+    "derivations": [],
+    "examples": [
+      { "latin": "bi boode tehe", "translation": "我在家里。", "notes": "示例句。" }
+    ],
+    "related": ["boo", "bi"],
+    "tags": ["示例"]
+  },
+  {
+    "id": "E0030",
+    "headword": "beye",
+    "headword_script": "",
+    "stem": "beye",
+    "pos": "名词",
+    "core_meaning": "身；身体；自身",
+    "senses": ["身体、自身。"],
+    "forms": [],
+    "derivations": [],
+    "examples": [
+      { "latin": "abkai beye", "translation": "天然之体；自然之身。", "notes": "与 abkai 搭配。" }
+    ],
+    "related": ["abkai"],
+    "tags": ["身体"]
+  }
+]

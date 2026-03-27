@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>满语词典 MVP</title>
+    <meta name="description" content="静态版满语词典 MVP：查词、词形反查、鼠标取词、例句阅读、简版句子分析。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-top">
+          <div>
+            <div class="eyebrow">静态版 · 可直接部署</div>
+            <h1>满语词典、词形反查与句子分析工具</h1>
+            <p class="hero-copy">
+              这是一个可上线的 MVP 脚本包。首版重点放在查词、反查、鼠标取词、例句阅读和简版句子分析。
+            </p>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-label">当前词条</div>
+              <div class="stat-value" id="entry-count">--</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">结构容量</div>
+              <div class="stat-value">2000+</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-panel">
+          <div class="search-row">
+            <input id="main-search" type="text" placeholder="输入词头、变格变位形式，或输入整句……" />
+            <button id="search-btn" class="primary-btn">开始查询</button>
+          </div>
+          <div class="chip-row">
+            <button class="chip example-chip" data-example="abka">abka</button>
+            <button class="chip example-chip" data-example="abkai">abkai</button>
+            <button class="chip example-chip" data-example="oho">oho</button>
+            <button class="chip example-chip" data-example="abka tusihiyen oho">abka tusihiyen oho</button>
+          </div>
+        </div>
+
+        <div class="mode-tabs">
+          <button class="mode-tab active" data-mode="lookup">查词 / 反查</button>
+          <button class="mode-tab" data-mode="sentence">分析句子</button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="main-column">
+          <div id="lookup-panel" class="panel active-panel">
+            <div class="card">
+              <div class="section-head">
+                <h2>搜索结果</h2>
+                <div class="muted" id="search-hint">可输入原形，也可输入变格或变位形式。</div>
+              </div>
+              <div id="result-list" class="result-list"></div>
+            </div>
+
+            <div class="card hidden" id="entry-detail-card">
+              <div id="entry-detail"></div>
+            </div>
+          </div>
+
+          <div id="sentence-panel" class="panel hidden">
+            <div class="card sentence-input-card">
+              <div class="section-head">
+                <h2>句子分析</h2>
+                <div class="muted">首版提供逐词拆解、基本词形说明和简版结构讲解。</div>
+              </div>
+              <div class="sentence-form">
+                <input id="sentence-input" type="text" placeholder="例如：abka tusihiyen oho" />
+                <button id="sentence-btn" class="primary-btn">开始分析</button>
+              </div>
+            </div>
+
+            <div class="card hidden" id="sentence-output-card">
+              <div id="sentence-output"></div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="side-column">
+          <div class="card">
+            <div class="section-head">
+              <h3>首版功能</h3>
+            </div>
+            <div class="feature-list">
+              <div class="feature-item">
+                <strong>基础查词</strong>
+                <span>输入词头，查看义项、词形、派生和例句。</span>
+              </div>
+              <div class="feature-item">
+                <strong>词形反查</strong>
+                <span>支持常见名词格变化和高频动词形式反推。</span>
+              </div>
+              <div class="feature-item">
+                <strong>鼠标取词</strong>
+                <span>例句与分析区可悬停查看简版词条。</span>
+              </div>
+              <div class="feature-item">
+                <strong>简版句子分析</strong>
+                <span>支持逐词拆解与基础结构说明。</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="section-head">
+              <h3>词库扩充方式</h3>
+            </div>
+            <div class="muted leading">
+              词库当前放的是示范数据。后续你可以直接扩写 <code>data/entries.json</code>，
+              也可以填充 <code>data/import_template_2000.csv</code>，再用工具脚本转换为 JSON。
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="section-head">
+              <h3>快速入口</h3>
+            </div>
+            <div class="quick-links" id="quick-links"></div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <div id="tooltip" class="tooltip hidden"></div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
